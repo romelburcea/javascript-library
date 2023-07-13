@@ -29,12 +29,7 @@ document.getElementById("booksForm").addEventListener("submit", function(event){
 let bookbtn = document.getElementById("addBook");
 bookbtn.addEventListener("click", function(){
     let bookForm = document.getElementById("booksForm");
-    if(bookForm.style.display = "none"){
-        bookForm.style.display = "block"
-    } else {
-        bookForm.style.display = "none";
-    }
-    // bookForm.style.display = "block";
+    bookForm.style.display = "block";
 })
 
 function displayLibrary(){
